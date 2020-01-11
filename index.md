@@ -1,4 +1,4 @@
-## Code 201 Reading Notes
+
 
 
 > This is my first website using markdown for my reading notes. I'm glad I figured it out.
@@ -16,7 +16,7 @@ TABLE OF CONTENTS:
 
 
 
-- [] **Monday**
+- [ ] **Monday**
   1.
   2.
   3.
@@ -32,7 +32,7 @@ TABLE OF CONTENTS:
   13.
   14.
   15.
-- [] **Tuesday**
+- [ ] **Tuesday**
   1.
   2.
   3.
@@ -48,7 +48,7 @@ TABLE OF CONTENTS:
   13.
   14.
   15.
-- [] **Wednesday**
+- [ ] **Wednesday**
   1.
   2.
   3.
@@ -64,7 +64,7 @@ TABLE OF CONTENTS:
   13.
   14.
   15.
-- [] **Thursday**
+- [ ] **Thursday**
   1.
   2.
   3.
@@ -80,7 +80,7 @@ TABLE OF CONTENTS:
   13.
   14.
   15.
-- [] **Friday**
+- [ ] **Friday**
   1.
   2.
   3.
@@ -96,7 +96,7 @@ TABLE OF CONTENTS:
   13.
   14.
   15.
-- [] **Saturday**
+- [ ] **Saturday**
   1.
   2.
   3.
@@ -112,7 +112,7 @@ TABLE OF CONTENTS:
   13.
   14.
   15.
-- [] **Sunday**
+- [ ] **Sunday**
   1.
   2.
   3.
