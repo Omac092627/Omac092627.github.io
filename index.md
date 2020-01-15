@@ -19,9 +19,12 @@
 - [ ] **Monday**
   
 - [ ] **Tuesday**
-    2. class-02.md
-      - Java Script:
-          Evaluations: You can analyze values in a script to determine the expected results.
+   
+   2. class-02.md
+     
+     - Java Script:
+         
+         Evaluations: You can analyze values in a script to determine the expected results.
           
           Decisions: Using results of evaluations you can determine which path your script goes down.
 
@@ -66,64 +69,79 @@
           
           h3: smaller
           
-          <p></p>: paragraph
+          Example: <p></p>: paragraph
           
-          <b></b>: bold
+          Example: <b></b>: bold
           
-          <i></i>: italicized
+          Example: <i></i>: italicized
           
-          <sup></sup>: super script 2 to the second power
+          Example: <sup></sup>: super script 2 to the second power
           
-          <sub></sub>: sub script: CO2
+          Example: <sub></sub>: sub script: CO2
           
           white space: makes it easier to read
           
-          <br />: break up a paragraph
+          Example: <br />: break up a paragraph
           
-          <hr />: horizontal line break: a liter line
+          Example: <hr />: horizontal line break: a liter line
           
-          <strong></strong>: makes words bold like
+          Example: <strong></strong>: makes words bold like
           
-          <em></em>: emphasis: italicized like
+          Example: <em></em>: emphasis: italicized like
           
-          <blockquot></blockquote>: a proper way to cite because it works with IE
+          Example: <blockquot></blockquote>: a proper way to cite because it works with IE
           
-          <q></q>: quote, but doesn't work on IE
+          Example: <q></q>: quote, but doesn't work on IE
           
-          <abbr></abbr>: abbreviation
+          Example: <abbr></abbr>: abbreviation
             Example: <abbr title= 'professor'> prof </abbr>
           
-          <cite></cite>: how to cite work
+          Example: <cite></cite>: how to cite work
           
-          <dfn></dfn> = define something
+          Example:<dfn></dfn> = define something
           
-          <address></address>: physical address or phone number or email etc
+          Example: <address></address>: physical address or phone number or email etc
           
-          <ins></ins>:insert
+          Example: <ins></ins>:insert
           
-          <del></del>:delete
+          Example: <del></del>:delete
           
-          <s></s>: something is no longer relevant but remains in the script
+          Example: <s></s>: something is no longer relevant but remains in the script
           
         . CSS:
+        
             External CSS:
+            
               <link>: tell browswer where css is, goes in the head
+              
               href: specifies path to folder
+              
               type: type of document
+              
               rel: relationship to file
+              
                 Example: <link href="CSS/Styles.css" type="text/css" rel="stylesheets"/>
           
           Internal CSS:
+          
               <style></style>
           
           CSS Selectors:
+          
             Universal Selectors: applies to all elements in the document: *{}
+            
             type selector: matches element names: h1, h2, h3 {}
+            
             class selector: matches class with period: .note{}
+            
             ID Selector: #introduction {}
+            
             Child Selector: li>a{}
+            
             Descendant Selector: p a {}
+            
             adjacent sibling selector: h1+p {}
+            
             general sibling selector: h1~p {}
             
 - [ ] **Wednesday**
@@ -131,9 +149,12 @@
 - [ ] **Friday**
 
 - [ ] **Saturday**
+
     1. class-01.md
+    
       - The ABC's of programming helped me gain an idea on how JavaScript functions as a whole. I learned the different pieces that structure a webpage including JavaScript, CSS, and HTML. Each element is different and does something different in order to make the browswer render webpages. JavaScript is one of the most commonly used languages in the world. 
-      - A few key points that stuck out to me was different functions of JavaScript itself. For example, what an object is and how a computer classifies an object. And how we can use JavaScript to describe and "build" the object. JavaScript also uses the "top down" method which breaks the information into smaller pieces as we go from top to bottom. Starting with the variable and working your way down through functions and methods. Lest not forget, arguments.
+     
+     - A few key points that stuck out to me was different functions of JavaScript itself. For example, what an object is and how a computer classifies an object. And how we can use JavaScript to describe and "build" the object. JavaScript also uses the "top down" method which breaks the information into smaller pieces as we go from top to bottom. Starting with the variable and working your way down through functions and methods. Lest not forget, arguments.
 
 - [ ] **Sunday**
 
