@@ -71,36 +71,36 @@
           
           Example: <p></p>: paragraph
           
-          Example: <b></b>: bold
+          Example: <b> bold </b>: 
           
-          Example: <i></i>: italicized
+          Example: <i> italicized </i>: 
           
-          Example: <sup></sup>: super script 2 to the second power
+          Example: 2 <sup> 2 </sup>: super script 2 to the second power
           
-          Example: <sub></sub>: sub script: CO2
+          Example: CO <sub> 2 </sub>: sub script: CO2
           
           white space: makes it easier to read
           
           Example: <br />: break up a paragraph
           
-          Example: <hr />: horizontal line break: a liter line
+          Example: <hr />: horizontal line break: a literal line
           
-          Example: <strong></strong>: makes words bold like
+          Example: <strong> strong </strong>: makes words bold like
           
-          Example: <em></em>: emphasis: italicized like
+          Example: <em> emphasis </em>: emphasis: italicized like
           
-          Example: <blockquot></blockquote>: a proper way to cite because it works with IE
+          Example: <blockquote> I have a dream </blockquote>: a proper way to cite because it works with IE
           
-          Example: <q></q>: quote, but doesn't work on IE
+          Example: <q> I have a dream</q>: quote, but doesn't work on IE
           
           Example: <abbr></abbr>: abbreviation
             Example: <abbr title= 'professor'> prof </abbr>
           
-          Example: <cite></cite>: how to cite work
+          Example: <cite> cite </cite>: how to cite work
           
-          Example:<dfn></dfn> = define something
+          Example:<dfn> black hole </dfn> is something which no light can escape = define something
           
-          Example: <address></address>: physical address or phone number or email etc
+          Example: <address> 15296 W. Coolidge st</address>: physical address or phone number or email etc
           
           Example: <ins></ins>:insert
           
