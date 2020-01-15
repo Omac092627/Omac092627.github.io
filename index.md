@@ -22,23 +22,33 @@
     2. class-02.md
       - Java Script:
           Evaluations: You can analyze values in a script to determine the expected results.
+          
           Decisions: Using results of evaluations you can determine which path your script goes down.
+
           Loops: perform some steps repeatedly.
           
           When using Decision Making you want to use flow charts.
+          
           Evaluating conditions and conditional statements: 2 components to a decision:
+          
             An expression is evaluated, which returns a value.
+            
             A conditional statement says what to do in a given situation.
-    e=      
+      Example:
+      
           Comparison operators: <,>,*,!=,===
+          
           Logical operators: &&, ||, !
           
           Switch Statements: can pass multiple cases (variables) through one statement, basically only runs when called.
+          
             Example: Switch(level) {
                       case 'One':
                        title = 'level1';
                        break; (this stops the code from running)
+                       
           If statements: if you need to compare values to get a result.
+          
             Example: if(score>50) {
                       congratulate();
                       }
@@ -47,30 +57,52 @@
                         }
        - HTML:
           Structural markup: describe headings and paragraphs.
+          
           Semantic markup: used for emphasis.
           
           h1: main heading
+          
           h2: subhead
+          
           h3: smaller
+          
           <p></p>: paragraph
+          
           <b></b>: bold
+          
           <i></i>: italicized
+          
           <sup></sup>: super script 2 to the second power
+          
           <sub></sub>: sub script: CO2
+          
           white space: makes it easier to read
+          
           <br />: break up a paragraph
+          
           <hr />: horizontal line break: a liter line
+          
           <strong></strong>: makes words bold like
+          
           <em></em>: emphasis: italicized like
+          
           <blockquot></blockquote>: a proper way to cite because it works with IE
+          
           <q></q>: quote, but doesn't work on IE
+          
           <abbr></abbr>: abbreviation
             Example: <abbr title= 'professor'> prof </abbr>
+          
           <cite></cite>: how to cite work
+          
           <dfn></dfn> = define something
+          
           <address></address>: physical address or phone number or email etc
+          
           <ins></ins>:insert
+          
           <del></del>:delete
+          
           <s></s>: something is no longer relevant but remains in the script
           
         . CSS:
