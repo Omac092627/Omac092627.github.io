@@ -76,10 +76,16 @@ REMEMBER: OVERAPI.COM - for psudo code
     JAVASCRIPT:
 
   Example:
+
+
+
     Creating an object: literal notation.
-              Liter notation is the easiest and mos popular way to create objects.
+              Liter notation is the easiest and most popular way to create objects.
               The object is the curly braces and their content.
               For example a hotel:
+
+              Example:
+          
                 var hotel = {
                   name: 'Quay', // the name, rooms, and booked are properties.
                   rooms: 69,
