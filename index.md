@@ -16,7 +16,7 @@
 
 
 - [ ] **Monday**
-    3. class-03.md [JavaScript:Decisions/loops](clas-03.md)
+    3. class-03.md [JavaScript:Decisions/loops](../clas-03.md)
       Javascript: Chapter 4 Decisions and Loops
 
 Type coercision: Javascript runs data behind the scenes.
