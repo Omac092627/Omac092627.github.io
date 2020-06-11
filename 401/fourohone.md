@@ -18,7 +18,7 @@
 
 **CLASS 401 READING NOTES**
 
-[c# Prework](../401/c#-prework.md)
+[c# Prework](../401/c#-prework.html)
 
 
 [.NET Prework](../401/net-prework.md)
