@@ -1,15 +1,21 @@
 # CODE 201 READING NOTES
 
 
-> This is my first website using markdown for my reading notes. I'm glad I figured it out.
-
-
 
 
 **TABLE OF CONTENTS:**
 
+**CLASS 301 READING NOTES**
 
-**CLASS 201**  
+[301 notes](../301/threeohone.html)
+
+
+**CLASS 401 READING NOTES**
+
+[401 notes](../401/fourohone.html)
+
+
+**CLASS 201 READING NOTES**  
 
 [JavaScript:Decisions/loops](../class-03.md)
 
@@ -33,6 +39,4 @@
 
 
 
-**CLASS 301**
 
-[301 notes](../301/threeohone.html)
