@@ -1,9 +1,15 @@
 # CODE 301 READING NOTES
 
-[201 Reading Notes](../index.md)
 
 **TABLE OF CONTENTS:**
 
+**CLASS 201 READING NOTES**
+
+[201 notes](../index.md)
+
+**CLASS 401 READING NOTES**
+
+[401 notes](../401/fourohone.html)
 
 **301 NOTES**
 
