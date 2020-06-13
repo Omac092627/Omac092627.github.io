@@ -17,15 +17,16 @@ Passing Arrays as Arguments
 1. Arrays as Objects:
     You can store multiple variables of the same type in an array data structure. You declare an array by specifying the type of its elements. If you want the array to store elements of any type, you can specify object as its type. In the unified type system of C#, all types, predefined and user-defined, reference types and value types, inherit directly or indirectly from Object.
 
-    Example: type[] arrayName;
+    Example: 
+    //type[] arrayName;
 
     The following creates single-dimensional, multidimensional, and jagged arrays:
 
     Examples: 
-    class TestArraysClass
-{
-    static void Main()
-    {
+        //    class TestArraysClass
+        {
+        //    static void Main()
+            {
         // Declare a single-dimensional array of 5 integers.
         int[] array1 = new int[5];
 
@@ -78,16 +79,19 @@ Passing Arrays as Arguments
 
 2. Single-Dimensional Arrays:
     You create a single-dimensional array using the new operator specifying the array element type and the number of elements. The following example declares an array of five integers:
-        Example: int[] array = new int[5];
+        Example: 
+        //int[] array = new int[5];
 
 
 
 3. Multidimensional Arrays:
     Arrays can have more than one dimension. For example, the following declaration creates a two-dimensional array of four rows and two columns.
-        Example: int[,] array = new int[4, 2];
+        Example: 
+        //int[,] array = new int[4, 2];
 
     The following declaration creates an array of three dimensions, 4, 2, and 3.
-        Example: int[, ,] array1 = new int[4, 2, 3];
+        Example: 
+        //int[, ,] array1 = new int[4, 2, 3];
 
 
 4. Jagged Arrays:
