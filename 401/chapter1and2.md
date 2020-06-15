@@ -827,3 +827,160 @@
                             Console.WriteLine(a); //Stevie Ray
                             Console.WriteLine(b); //Vaughan
                         }
+
+--------------------------------------------------------------------------------------------------
+
+                Implications of Passing by reference:
+                    When you pass an argument by reference, you alias the storage location of an existing variable rather than create a new storage location. 
+                        x and y can both have the same instance using the same variable.
+
+--------------------------------------------------------------------------------------------------
+
+                Params Modifier:
+                    The params parameter modifier may be specified on the last parameter of a method so that the method accepts any number of arguments of a particular type. The parameter type must be declared as an array.
+                            class Test 
+                            {
+                                static int Sum (params int[] ints)
+                                {
+                                    int sum = 0;
+                                    for (int i = 0; i < ints.Length; i++)
+                                        sum += ints[i];
+                                    return sum
+                                }
+                                static void Main()
+                                {
+                                    int total = Sum (1, 2, 3, 4);
+                                    Console.WriteLine (total);
+                                }
+                            }
+--------------------------------------------------------------------------------------------------
+
+                Optional Parameters:
+                    From C#, methods, constructors, and indexers (Chapter 3) can declare optional parameters. A parameter is optional if it specifies a default value in its declaration:
+                        void Foo (int x = 23) {Console.WriteLine (x); }
+                    
+                    Optional parameters may be omitted when calling the method:
+                        Foo(); //23
+
+                    The default argument 23 is actually passed to th optional parameter x -- the compiler bakes the value 23 into the compiled code at the calling side. The preceding call to Foo is sematically identical to:
+                        Foo(23);
+                    
+                    Because the compiler simply subsitutes the default value of an optional parameter wherever it is used.
+
+                    The default value of an optional parameter must be specified by a constant expression, or a parameterless constructor of a value type. Optional parameters cannot be marked with ref or out. 
+
+                    Mandatory parameters must occur before optional parameters in both the method declaration and the method call. In the following example
+
+--------------------------------------------------------------------------------------------------
+
+                Named arguments:
+                    Rather than identifying an argument by position, you can identify an argument by name.
+                        (int x, int y) / Foo (x:1, y:2) //named = a colon :
+                    
+                    You can mix named and positional arguments. Positional must come befre named:
+                        Foo (1, y:2) //this is correct
+                        Foo(y:2, 1) // this gives compile time error
+
+                    Named arguments are particularly useful in conjuction with optional parameters:
+                        void Bar (int a = 0, int b = 0, int c = 0, int d = 0) {...}
+
+--------------------------------------------------------------------------------------------------
+
+                Ref Locals:
+                    C# 7 adds an esoteric feature, whereby you can define a local variable that references an element in an array or field in an object:
+                        int[] numbers = {0, 1, 2, 3, 4};
+                        ref int numRef = ref numbers [2];
+                    In this example, numRef is a reference to the numbers[2]. When we modify numRef, we modify the array element:
+                        numRef *= 10;
+                        Console.WriteLine(numRef);
+                        Console.WriteLine (numbers [2])
+
+                    The target for a ref local must be an array element, field, or local variable; it cannot be a property(chapter3). Ref locals are intended for specialized micro-optimization scenarios, and are typically used in conjuction with ref returns. 
+--------------------------------------------------------------------------------------------------
+
+                Ref returns: 
+                    You can return a ref local from a method. This is called a ref return:
+                        static string X = "Old Value";
+                        static ref string GetX() => ref X; // this method returns a ref
+                        static void Main()
+                        {
+                            ref string xRef = ref GetX(); // Assign result to a ref local
+                            xRef = "New Value" 
+                            Console.WriteLine(X); // New Value 
+                        }
+
+--------------------------------------------------------------------------------------------------
+
+                Var -- Implicitly Typed Local Variables:
+                    It is often the case that you declare and initialize a variable in one step. If the complier is able to infer the type from the initizlization expression you can use the keyword var in place of type declaration:
+                        var x = "hello";
+                        var y = new System.Text.StringBuilder();
+                        var z = (float)Math.PI
+--------------------------------------------------------------------------------------------------
+
+                Expressions and Operator:
+                    An expression essentially denotes a value. The simplest kinds of expressions are contants and variables. Expressions can be transformed and combined using operators.
+
+                Primary Expressions:
+                    Primary expressions include expressions composed of operators that are intrinsic to the basic plumbing of the language:
+                        Math.Log(1)
+                
+                Void Expressions:
+                    A void expression is an expression that has no value:
+                        Console.WriteLine (1)
+
+                    A void expression, since it has no value, cannot be used as an operand to build more complex expressions:
+                        1 + Console.WriteLine (1) // compile-time error
+
+                Assignment Expressions:
+                    An assignment expression uses the = operator to assign the result of another expression to a variable:
+                        x = x * 5
+                
+                Operator Precedence Associativity:
+                    When an expression contains multiple operators, precedence and assicativity determine the order of their evaluation. Operators with higher precedence execute before operators of lower precedence:
+                        1 + 2 * 3;
+
+                        1 + (2 * 3) // multiplication is higher precedence than addition. 
+                
+                Left Associative operators:
+                    Binary operators are left associative. They are evaluated from left to right.
+
+                Right associative operators:
+                    The assignment operators, lambda, null coalescing, and conditional operators are right-associative, they're evaluated from right to left. 
+
+--------------------------------------------------------------------------------------------------
+
+                Null Operators:
+                    C# provides two operators to make it easier to work with nulls: the null coalescing operator and the null-conditional operator. 
+
+
+                Null Coalescing Operator:
+                    The ?? operator is the null coalescing operator. It says "If the operand to the left is non-null, give it to me, otherwise, give me a default value:
+                        string s1 = null;
+                        string s2 = s1 ?? "nothing" //s2 evaluates to "nothing"
+
+                Null-conditional Operator
+                    The ?. operator is the null-conditional or "Elvis" operator (after elvis emoticon), was introduced in C# 6. It allows you to call methods and access members just like the standard dot operator, except that if the operand on the left side is null, the espression evaluates to null instead of throwing a NullReferenceException:
+                        System. Text. StringBuilder sb = null;
+                        string s = sb?.ToString(); //No error; s instead evaluates to null
+                        basically its this: string s = (sb == null ? null: sb.ToString());
+
+--------------------------------------------------------------------------------------------------
+
+                Statements:
+                    Functions comprise statements that execute sequentially in the textual order in which they appear. A statement block is a series of statements appearing between braces ({})
+
+                Declaration Statements: 
+                    A declaration statement declares a new variable, optionally intializing the variable with an expression. A declaration statement ends in a semicolon. You may declare multiple variables of the same type in a somma-separated list:
+                        string someWord = "rosebud";
+                        int someNumber = 42;
+                        bool rich = true, famous = false;
+
+                Local Variables:
+                    The scope of a local variable or local constant extends through the current block. You cannot declare another local variable with the same name in the current block or in any nested blocks.
+                
+                Expression statements:
+                    Expression statements are expressions that are also valid statements:
+                        x =  1 + 2;
+                        x++
+                        new StringBuilder();
