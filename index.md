@@ -1,9 +1,16 @@
-# CODE 201 READING NOTES
+# LAMI BEACH READING NOTES
+
 
 
 
 
 **TABLE OF CONTENTS:**
+
+
+**CLASS 201 READING NOTES**  
+
+[201 notes](../201/twoohone.html)
+
 
 **CLASS 301 READING NOTES**
 
@@ -15,27 +22,6 @@
 [401 notes](../401/fourohone.html)
 
 
-**CLASS 201 READING NOTES**  
-
-[JavaScript:Decisions/loops](../class-03.md)
-
-[Object:Literal Notation](../class-06.md)
-
-[CSS:Transforms/Transitions/Animations](../class-14.md)
-
-[JavaScript:Evaluations,Decisions,Loops](../class-02.md)
-     
-[JavaScript:Functions, Methods, Objects & CSS](../class-04.md)
-
-[JavaScript:LocalStorage](../class-13.md)
-            
-[JavaScript:ABC's of programming](../class-01.md)
-
-[CSS:Basics](../class-05.md)
-    
-[JavaScript:Tables/Object-Constructors](../class-07.md)
-
-[JavaScript:The-Stack/Exectution-Context/Error-Objects](../class-10.md)
 
 
 
