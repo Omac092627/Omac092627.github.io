@@ -34,3 +34,11 @@
 
 [Mindfulness](../401/mindfulness.md)
 
+[Exception Handling](../401/exceptionHandling.md)
+
+[Debugging](../401/debugging.md)
+
+[Therac-25](../401/therac.md)
+
+[Ariane-5](../401/ariane.md)
+
