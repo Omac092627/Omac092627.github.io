@@ -47,3 +47,11 @@
 [System I/O](../401/systemIO.md)
 
 [Linked Lists](../401/linkedLists.md)
+
+[OOP](../401/OOP.md)
+
+[OOP Principals](../401/oopPrincipals.md)
+
+[Collections](../401/collections.md)
+
+[LINQ](../401/LINQ.md)
