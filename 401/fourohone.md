@@ -55,3 +55,5 @@
 [Collections](../401/collections.md)
 
 [LINQ](../401/LINQ.md)
+
+[Stacks and Queues](../401/stacks.md)
