@@ -59,3 +59,5 @@
 [Stacks and Queues](../401/stacks.md)
 
 [Database Management Systems](../401/database.md)
+
+[MVC, ERD, EFCore](../401/mvc.md)
