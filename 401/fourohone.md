@@ -61,3 +61,15 @@
 [Database Management Systems](../401/database.md)
 
 [MVC, ERD, EFCore](../401/mvc.md)
+
+[Claim Authorization](../401/claimauth.md)
+
+[DTOs](../401/dto.md)
+
+[Identity](../401/identity.md)
+
+[Swagger](../401/swagger.md)
+
+[Bootstrap](../401/bootstrap.md)
+
+
