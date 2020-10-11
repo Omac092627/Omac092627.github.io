@@ -14,10 +14,16 @@
 [201 notes](../201/twoohone.html)
 
 
+
 **CLASS 401 READING NOTES**
 
 [401 notes](../401/fourohone.html)
 
+
+
+**CLASS 401 Javascript READING NOTES**
+
+[401JS notes](../401/fourohoneJS.html)
 
 
 

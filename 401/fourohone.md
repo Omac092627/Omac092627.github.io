@@ -19,6 +19,12 @@
 [301 notes](../301/threeohone.html)
 
 
+**CLASS 401 Javascript READING NOTES**
+
+[401JS notes](../401/fourohoneJS.html)
+
+
+
 
 
 **CLASS 401 READING NOTES**
