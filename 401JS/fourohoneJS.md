@@ -18,3 +18,9 @@
 **CLASS 401 C# READING NOTES**
 
 [401 notes](../401/fourohone.html)
+
+
+
+**CLASS 401 Javascript READING NOTES**
+
+[preworkReading notes](../401JS/preworkReadings.md)
