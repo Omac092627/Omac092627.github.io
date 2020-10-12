@@ -24,3 +24,7 @@
 **CLASS 401 Javascript READING NOTES**
 
 [preworkReading notes](../401JS/preworkReadings.md)
+
+
+[Node EcoSystems, TDD, CI/CD](../401JS/preworkReadings.md)
+
