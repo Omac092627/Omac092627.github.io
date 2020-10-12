@@ -26,5 +26,5 @@
 [preworkReading notes](../401JS/preworkReadings.md)
 
 
-[Node EcoSystems, TDD, CI/CD](../401JS/preworkReadings.md)
+[Node EcoSystems, TDD, CI/CD](../401JS/class-01-nodeEcosystems.md)
 
