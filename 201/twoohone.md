@@ -26,7 +26,7 @@
 
 **CLASS 401 Javascript READING NOTES**
 
-[401JS notes](../401/fourohoneJS.html)
+[401JS notes](../401JS/fourohoneJS.html)
 
 
 
