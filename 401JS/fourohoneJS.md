@@ -28,5 +28,5 @@
 
 [Readings: Node EcoSystems, TDD, CI/CD](../401JS/class-01-nodeEcosystems.md)
 
-[Readings: Classes, Inheritance, Functional Programming](../401JS/class-01-class-02.md)
+[Readings: Classes, Inheritance, Functional Programming](../401JS/class-02.md)
 
